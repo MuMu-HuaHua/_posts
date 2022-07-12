@@ -49,8 +49,7 @@ git diff master origin/master
 ERROR: Permission to MuMu-HuaHua/_posts.git denied to duoyulee.
 fatal: Could not read from remote repository.
 
-Please make sure you have the correct access rights
-and the repository exists.
+Please make sure you have the correct access rightsand the repository exists.
 
 ``` shell
 #查看全局配置 主要看user.name user.email user.password
