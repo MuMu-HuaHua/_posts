@@ -12,9 +12,9 @@ toc: true
 常用的获取数据工具： curl、sql2csv和tar
 
 ### 解压缩
-tar
-zip
-rar
+tar、zip、rar
+
+<!--more-->
 ``` sh
 #!/usr/bin/env bash
 # unpack: Extract common file formats

@@ -8,6 +8,7 @@ tags:
 ---
 在开始架设 Git 服务器前，需要把现有仓库导出为裸仓库——即一个不包含当前工作目录的仓库
 
+<!--more-->
 > git同步到本地
 ``` bash 
 git clone git@github.com:shichengziya/shichengziya.github.io.git
@@ -79,7 +80,7 @@ $ git config --global user.name freedom
 $ git config --global user.password 密码
 $ git config --global user.password abc0506abc
 $ git config --global user.password 邮箱
-$ git config --global user.email "1548429568@qq.com"
+$ git config --global user.email " "
  
  
 # 4.修改git用户名、密码、邮箱的配置

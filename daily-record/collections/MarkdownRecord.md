@@ -8,8 +8,6 @@ tags:
 
 ---
 
-# MarkdownRecord
-
 ## type
 
 `#行内代码`

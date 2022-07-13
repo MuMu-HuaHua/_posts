@@ -6,6 +6,9 @@ tags:
 - Windows
 
 ---
+常用快捷键记录
+<!--more-->
+
 key|ToDo
 --|--
 Win+A|打开快速设置
