@@ -44,9 +44,14 @@ wc -l fashion.csv
 ### [数据科学工具箱](http://datasciencetoolbox.org/)
 [下载](https://www.virtualbox.org/wiki/Downloads)
 
-下载和安装VirtualBox、Vagrant
+下载和安装VirtualBox、Vagrant*(虚拟机)
 ls、cat、jq
-
+``` sh
+#  apt
+sudo apt install path_to_deb_file
+#  dpkg
+sudo dpkg -i path_to_deb_file
+```
 五类命令行工具
 工具|组成
 ----|---
