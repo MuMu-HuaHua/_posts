@@ -100,6 +100,9 @@ $ git config --global --unset user.email "your@email.com"
 kex_exchange_identification: Connection closed by remote host
 
 
+Hi duoyulee! You've successfully authenticated, but GitHub does not provide shell access.
+
+
 
 
 
