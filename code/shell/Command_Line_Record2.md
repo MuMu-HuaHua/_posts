@@ -160,8 +160,18 @@ close(f)
 ->
 ```
 
+###  数据清洗
 
+cut、sed、jq、csvgrep、unip、awk
 
+#### 纯文本处理
+
+##### 行过滤
+最直接的行过滤方法是根据行的位置进行过滤，可以用head、sed或awk打印前三行
+``` sh
+seq -f "Line %g" 10 | tee lines
+
+```
 
 
 
