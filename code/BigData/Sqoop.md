@@ -10,7 +10,9 @@ tags:
 toc: true
 ---
 
-sqoop 是在==Hadoop 和关系数据库服务器之间传送数据==的工具，使用时需要在节点上安装。核心功能就是数据的导入导出和迁入迁出。工作机制是将导入或导出命令翻译成 MapReduce 程序来实现，在翻译出的 MapReduce 中主要是对 InputFormat 和 OutputFormat 进行定制
+sqoop 是在==Hadoop 和关系数据库服务器之间传送数据==的工具，使用时需要在节点上安装。核心功能就是数据的导入导出和迁入迁出。
+<!--more-->
+工作机制是将导入或导出命令翻译成 MapReduce 程序来实现，在翻译出的 MapReduce 中主要是对 InputFormat 和 OutputFormat 进行定制
 - 导入数据
   - 从MySQL，Oracle 导入数据到 Hadoop 的 HDFS、HIVE、HBASE 等数据存储系统
 - 导出数据

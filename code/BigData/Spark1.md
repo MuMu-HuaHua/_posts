@@ -1,4 +1,4 @@
-title: Spark-1
+title: Spark
 date: 2022-07-09 18:30:09
 categories:
 - [Code,BD]
@@ -21,10 +21,10 @@ Spark core、Spark SQL 、Spark Streaming 、Mlib
   RDD|是分布式内存的一个抽象概念，提供了一种高度受限的共享内存模型。
   DAG|反映RDD之间的依赖关系。
   Executor|是运行在工作节点（Worker Node）上的一个进程，负责运行任务，并为应用程序存储数据。
-  应用|用户编写的Spark应用程序。
-  任务|运行在Executor上的工作单元。
-  作业|一个作业（Job）包含多个RDD及作用于相应RDD上的各种操作。
-  阶段|是作业的基本调度单位，一个作业会分为多组任务（Task），每组任务被称为“阶段”（Stage）或者也被称为“任务集”。
+  application|用户编写的Spark应用程序。
+  task|运行在Executor上的工作单元。
+  job|一个作业（Job）包含多个RDD及作用于相应RDD上的各种操作。
+  stage|是作业的基本调度单位，一个作业会分为多组任务（Task），每组任务被称为“阶段”（Stage）或者也被称为“任务集”。
 
 在 Spark 中，一个应用（Application）由一个任务控制节点（Driver）和若干个作业（Job）构成，一个作业由多个阶段（Stage）构成，一个阶段由多个任务（Task）组成。
 
