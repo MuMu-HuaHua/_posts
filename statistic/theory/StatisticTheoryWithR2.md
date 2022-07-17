@@ -122,9 +122,7 @@ $$
 R_p= \frac{x-E(x)}{\sqrt{E(x)}}
 $$
 卡方统计量是皮尔逊残差的平方和
-$$
-\epsilon= \sum_i^r \sum_j^cR_p^2
-$$
+$\epsilon= \sum_i^r \sum_j^c R_p^2$
 
 `chisq.test(clicks, simulate.p.value=TRUE)`
 

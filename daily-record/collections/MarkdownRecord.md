@@ -78,9 +78,6 @@ function add(x, y) {
 }
 ```
 
-
-
-
 !!! note ""
     双引号留空，取消标记
 
@@ -88,8 +85,6 @@ function add(x, y) {
 - [x] day1
 - [x] day2
 - [ ] day3
-
- 
 
 ---  [^2]
 
@@ -117,8 +112,7 @@ function add(x, y) {
   <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-!!! note 可以通过将 HTML <picture> 元素与 prefers-color-scheme 媒体功能结合使用来指定在 Markdown 中显示图像的主题。 我们区分浅色和深色模式，因此有两个选项可用。 您可以使用这些选项显示针对深色或浅色背景优化的图像。 这对于透明的 PNG 图像特别有用,代码为浅色主题显示一个太阳图像，为深色主题显示一个月亮
-
+!!! note 可以通过将 HTML <picture> 元素与 prefers-color-scheme 媒体功能结合使用来指定在 Markdown 中显示图像的主题。 区分浅色和深色模式，因此有两个选项可用。 您可以使用这些选项显示针对深色或浅色背景优化的图像。 这对于透明的 PNG 图像特别有用,代码为浅色主题显示一个太阳图像，为深色主题显示一个月亮
 
 [](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
@@ -126,7 +120,6 @@ function add(x, y) {
 !!! note 通过在 Markdown 字符前面输入 \，可告诉 GitHub 忽略（或规避）Markdown 格式。
 
 将 \*our-new-project\* 重命名为 \*our-old-project\*。
-
 
 ## MathType
 要在文本中包含内联的数学表达式，请使用美元符号 $ 分隔表达式.要将美元符号显示为与数学表达式相同的行中的字符，需要对非分隔符 $ 进行转义，以确保该行正确呈现。
