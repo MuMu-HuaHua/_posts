@@ -31,6 +31,7 @@ vscode连接远程服务器选定了文件夹进去，若是直接使用source c
 - 先cd到要git的目录下，确定这个目录即为本地仓库，并执行。
 - 将它绑定成git的原理就是在此文件夹下生成一个.git文件夹。
 
+### 配置
 ``` bash 
 git remote add origin git@github.com:MuMu-HuaHua/_posts.git
 
@@ -97,13 +98,20 @@ $ git config --global --unset user.email "your@email.com"
 私钥
 全局（用户名、密码、邮箱）
 
-## error 
 kex_exchange_identification: Connection closed by remote host
 
 
 Hi duoyulee! You've successfully authenticated, but GitHub does not provide shell access.
 
-
+### 记录
+1. 记录冲突
+   方法一：stash
+   `git stash`
+   `git pull`
+   `git stash pop`
+   方法二：直接完全覆盖本地修改
+   `git reset --hard`
+   `git pull`
 
 
 

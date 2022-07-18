@@ -8,7 +8,6 @@ tags:
 - BD
 ---
 MapReduce是一种算法和框架，用来处理海量数据,Pregel（Pregel也来自谷歌，开源），对工程师的算法知识要求不高，支持大规模图的计算.
-
 <!--more-->
 ###  mapreduce & pergl
 

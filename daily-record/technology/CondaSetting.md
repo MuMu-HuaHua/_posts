@@ -6,7 +6,8 @@ tags:
 - Linux
 
 ---
-
+conda & jupyter 配置
+<!--more-->
 ### conda install
 [清华镜像源](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 ```
