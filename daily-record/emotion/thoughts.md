@@ -1,6 +1,6 @@
 title: 随想
 date: 2022-07-14 22:30:09
-categorie:
+category:
 - [Daily-Record]
 
 password: hello

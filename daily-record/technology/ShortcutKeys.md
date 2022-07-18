@@ -1,6 +1,6 @@
 title: WindowsShortcutKeys
 date: 2022-07-13 15:30:09
-categories:
+category:
 - [Daily-Record,Technology]
 tags:
 - Windows

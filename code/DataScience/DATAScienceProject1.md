@@ -1,6 +1,6 @@
 title: 算法部分
 date: 2022-07-15 22:30:09
-categories:
+category:
 - [Code,DataScience]
 
 tags: 

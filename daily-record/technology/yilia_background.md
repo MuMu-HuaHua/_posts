@@ -1,6 +1,6 @@
 title: yilia主题优化
 date: 2022-07-16 18:30:09
-categories:
+category:
 - [Daily-Record,Technology]
 tags:
 - Hexo
@@ -234,7 +234,7 @@ abbrlink:
   rep: hex    # 进制：dec(default) and hex
   # 下面几项可以省略
   drafts: false #(true)Process draft,(false)Do not process draft
-  # Generate categories from directory-tree
+  # Generate category from directory-tree
   # depth: the max_depth of directory-tree you want to generate, should > 0
   auto_category:
      enable: false

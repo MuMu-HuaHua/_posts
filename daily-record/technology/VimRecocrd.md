@@ -1,6 +1,6 @@
 title: VimRecord
 date: 2022-07-15 22:30:09
-categories:
+category:
 - [Daily-Record,Technology]
 tags:
 - Linux

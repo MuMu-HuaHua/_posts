@@ -1,6 +1,6 @@
 title: 命令行工具列表
 date: 2022-07-14 22:30:09
-categories:
+category:
 - [Daily-Record,shell]
 tags:
 - Linux

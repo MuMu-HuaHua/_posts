@@ -1,6 +1,6 @@
 title: Conception Of SocialNetwork 
 date: 2022-07-17 18:30:09
-categories:
+category:
 - [Code,BD]
 tags:
 - Statistic

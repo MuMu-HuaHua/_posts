@@ -1,6 +1,6 @@
 title: Conception Of Hive
 date: 2022-07-20 18:30:09
-categories:
+category:
 - [Code,BD]
 tags:
 - Hive

@@ -1,6 +1,6 @@
 title: Sqoop_Record
 date: 2022-07-19 18:30:09
-categories:
+category:
 - [Code,BD]
 tags:
 - Linux

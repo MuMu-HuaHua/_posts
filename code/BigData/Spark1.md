@@ -1,6 +1,6 @@
 title: Spark
 date: 2022-07-09 18:30:09
-categories:
+category:
 - [Code,BD]
 tags:
 - Linux

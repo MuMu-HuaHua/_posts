@@ -1,6 +1,6 @@
 title: 数据清洗(1)
 date: 2022-07-7 22:30:09
-categories:
+category:
 - [Code,DataScience]
 - [Statistic,Theory]
 
