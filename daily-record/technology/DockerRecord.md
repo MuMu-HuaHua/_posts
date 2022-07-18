@@ -1,6 +1,6 @@
 title: Docker记录
 date: 2022-07-22 18:30:09
-categories:
+category:
 - [Daily-Record,Technology]
 tags:
 - Docker

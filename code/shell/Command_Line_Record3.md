@@ -1,6 +1,6 @@
 title: 命令行（三）
 date: 2022-07-14 23:20:09
-categories:
+category:
 - [Code,shell]
 tags:
 - Linux

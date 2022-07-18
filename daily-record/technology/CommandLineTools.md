@@ -1,6 +1,6 @@
 title: 命令行工具
 date: 2022-07-09 18:30:09
-categories:
+category:
 - [Daily-Record,Technology]
 tags:
 - Linux

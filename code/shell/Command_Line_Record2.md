@@ -1,6 +1,6 @@
 title: 命令行（二）
 date: 2022-07-13 14:30:09
-categories:
+category:
 - [Code,shell]
 tags:
 - Linux

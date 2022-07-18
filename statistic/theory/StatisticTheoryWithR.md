@@ -1,6 +1,6 @@
 title: 实用统计学（一）
 date: 2022-07-04 17:30:20
-categories:
+category:
 - [Statistic,Theory]
 
 tags: 

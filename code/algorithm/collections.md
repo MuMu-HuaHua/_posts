@@ -1,6 +1,6 @@
 title: 算法随记
 date: 2022-07-16 18:30:09
-categories:
+category:
 - [Code,Algorithm]
 tags:
 - Algorithm

@@ -1,6 +1,6 @@
 title: 命令行（一）
 date: 2022-07-13 22:30:09
-categories:
+category:
 - [Code,shell]
 tags:
 - Linux

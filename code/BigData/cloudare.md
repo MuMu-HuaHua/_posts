@@ -1,6 +1,6 @@
 title: CDP
 date: 2022-07-16 18:30:09
-categories:
+category:
 - [Code,BD]
 tags:
 - Linux

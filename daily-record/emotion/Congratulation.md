@@ -1,7 +1,7 @@
 title: The First!
 date: 2022/3/19 23:33:26
 updated: 2022/4/11 23:33:26
-categories:
+category:
 - [Daily-Record, Emotional]
 tags:
 - Hexo

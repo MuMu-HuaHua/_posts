@@ -1,6 +1,6 @@
 title: MarkDown_Record
 date: 2022-07-02 22:30:09
-categories:
+category:
 - [Daily-Record,collections]
 tags:
 - Code
