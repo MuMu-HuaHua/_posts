@@ -238,12 +238,6 @@ http {
 }
 ```
 
-
-certbot certonly --webroot -w /var/www/hexo -d chengziyu.xyz -d www.chengziyu.xyz
-
-
-certbot certonly -d chengziyu.xyz
-
 ### errors
 2022/07/18 04:30:12 [emerg] 107#107: location "/50x.html" is outside location
 "/.well-known/acme-challenge/" in /etc/nginx/nginx.conf:39
@@ -251,4 +245,3 @@ nginx: [emerg] location "/50x.html" is outside location
 "/.well-known/acme-challenge/" in /etc/nginx/nginx.conf:39
 nginx: configuration file /etc/nginx/nginx.conf test failed
 
- certbot certonly --webroot -w /var/www/example -d www.example.com -d example.com -w /var/www/other -d other.example.net -d another.other.example.net
