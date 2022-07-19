@@ -1,17 +1,14 @@
+---
 title: 端口相关
-date: 2022-07-22 18:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- nginx
-- Linux
+  - nginx
+  - Linux
+abbrlink: 8fca1d44
+date: 2022-07-22 18:30:09
 ---
 端口相关记录
 <!--more-->
-### 端口放行
-`ufw allow 4000`
-ufw enable
-ufw status
 
 ### nginx部署证书踩坑
 #### 443端口显示正被docker监听

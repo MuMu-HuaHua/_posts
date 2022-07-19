@@ -1,12 +1,12 @@
+---
 title: 命令行（二）
-date: 2022-07-13 14:30:09
-category:
-- [Code,shell]
+categories:  [Code,shell]
 tags:
-- Linux
-- DataScience
-
+  - Linux
+  - DataScience
 toc: true
+abbrlink: 259b6a4e
+date: 2022-07-13 14:30:09
 ---
 
 常用的获取数据工具： curl、sql2csv和tar

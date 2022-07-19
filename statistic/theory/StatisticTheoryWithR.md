@@ -1,13 +1,12 @@
+---
 title: 实用统计学（一）
-date: 2022-07-04 17:30:20
-category:
-- [Statistic,Theory]
-
-tags: 
-- Statistic
-- R
-
+categories: [Statistic,Theory]
+tags:
+  - Statistic
+  - R
 toc: true
+abbrlink: d23ba137
+date: 2022-07-04 17:30:20
 ---
 ## 数据分布
 1. 箱线图

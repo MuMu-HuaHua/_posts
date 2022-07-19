@@ -1,13 +1,13 @@
+---
 title: 算法部分
+categories:  [Code,DataScience]
+tags:
+  - 数据清洗
+  - SQL
+  - Linux
+  - Python
+abbrlink: 7c7bc997
 date: 2022-07-15 22:30:09
-category:
-- [Code,DataScience]
-
-tags: 
-- 数据清洗
-- SQL
-- Linux
-- Python
 ---
 项目前置理论总结
 

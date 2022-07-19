@@ -1,12 +1,12 @@
+---
 title: VimRecord
-date: 2022-07-15 22:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Linux
-- Vim
-
+  - Linux
+  - Vim
 toc: true
+abbrlink: efde81e3
+date: 2022-07-15 22:30:09
 ---
 
 Vim键位记录

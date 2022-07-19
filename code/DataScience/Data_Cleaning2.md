@@ -1,14 +1,13 @@
+---
 title: 数据清洗(2)
-date: 2022-07-9 22:30:09
-category:
-- [Code,DataScience]
-- [Statistic,Theory]
-
-tags: 
-- 数据清洗
-- SQL
-- Linux
-- Python
+categories:  [Code,DataScience]
+tags:
+  - 数据清洗
+  - SQL
+  - Linux
+  - Python
+abbrlink: 99ed5751
+date: 2022-07-09 22:30:09
 ---
 
 ## 传统工具

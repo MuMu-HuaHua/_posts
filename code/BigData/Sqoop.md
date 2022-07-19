@@ -1,13 +1,13 @@
+---
 title: Sqoop_Record
-date: 2022-07-19 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Linux
-- Sqoop
-- BD
-  
+  - Linux
+  - Sqoop
+  - BD
 toc: true
+abbrlink: f83de1e2
+date: 2022-07-19 18:30:09
 ---
 
 sqoop 是在==Hadoop 和关系数据库服务器之间传送数据==的工具，使用时需要在节点上安装。核心功能就是数据的导入导出和迁入迁出。

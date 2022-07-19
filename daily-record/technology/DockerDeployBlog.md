@@ -1,11 +1,12 @@
+---
 title: Docker部署blog
-date: 2022-07-18 18:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Hexo
-- Docker
-- Linux
+  - Hexo
+  - Docker
+  - Linux
+abbrlink: 9f9e362
+date: 2022-07-18 18:30:09
 ---
 部署记录
 <!--more-->
@@ -245,7 +246,3 @@ nginx: [emerg] location "/50x.html" is outside location
 "/.well-known/acme-challenge/" in /etc/nginx/nginx.conf:39
 nginx: configuration file /etc/nginx/nginx.conf test failed
 
-``` ssh
-service sshd.service restart
-/etc/init.d/ssh restart
-```

@@ -1,13 +1,12 @@
+---
 title: 实用统计学（三）
-date: 2022-07-09 17:30:20
-category:
-- [Statistic,Theory]
-
-tags: 
-- Statistic
-- R
-
+categories: [Statistic,Theory]
+tags:
+  - Statistic
+  - R
 toc: true
+abbrlink: af33eebd
+date: 2022-07-09 17:30:20
 ---
 ## 　统计机器学习
 统计机器学习是数据驱动的，并不试图在数据上强加线性结构或其他的整体结构

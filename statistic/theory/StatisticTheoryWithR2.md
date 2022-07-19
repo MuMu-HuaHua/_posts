@@ -1,13 +1,12 @@
+---
 title: 实用统计学（二）
-date: 2022-07-06 17:30:20
-category:
-- [Statistic,Theory]
-
-tags: 
-- Statistic
-- R
-
+categories: [Statistic,Theory]
+tags:
+  - Statistic
+  - R
 toc: true
+abbrlink: e22d4def
+date: 2022-07-06 17:30:20
 ---
 # 统计实验与显著性检验
 ## A/B测试

@@ -1,10 +1,11 @@
+---
 title: Docker记录
-date: 2022-07-22 18:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Docker
-- Linux
+  - Docker
+  - Linux
+abbrlink: dad3b43e
+date: 2022-07-22 18:30:09
 ---
 
 一点docker记录

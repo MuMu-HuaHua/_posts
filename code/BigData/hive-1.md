@@ -1,9 +1,10 @@
+---
 title: Conception Of Hive
-date: 2022-07-20 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Hive
-- DataBase
-- BD
+  - Hive
+  - DataBase
+  - BD
+abbrlink: cba7b740
+date: 2022-07-20 18:30:09
 ---

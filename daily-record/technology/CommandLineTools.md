@@ -1,11 +1,11 @@
+---
 title: 命令行工具
-date: 2022-07-09 18:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Linux
-
+  - Linux
 toc: true
+abbrlink: 6d2a527e
+date: 2022-07-09 18:30:09
 ---
 常用工具的替代
 <!--more-->

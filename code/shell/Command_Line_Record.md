@@ -1,12 +1,12 @@
+---
 title: 命令行（一）
-date: 2022-07-13 22:30:09
-category:
-- [Code,shell]
+categories:  [Code,shell]
 tags:
-- Linux
-- DataScience
-
+  - Linux
+  - DataScience
 toc: true
+abbrlink: 158d8696
+date: 2022-07-13 22:30:09
 ---
 OSEMN——获取、清洗、探索、建模和解释数据
 

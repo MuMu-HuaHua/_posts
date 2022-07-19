@@ -1,13 +1,13 @@
+---
 title: kafka
-date: 2022-07-19 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Linux
-- kafka
-- BD
-  
+  - Linux
+  - kafka
+  - BD
 toc: true
+abbrlink: 5bbc7517
+date: 2022-07-19 18:30:09
 ---
 
 

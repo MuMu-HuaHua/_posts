@@ -1,10 +1,10 @@
+---
 title: WindowsShortcutKeys
-date: 2022-07-13 15:30:09
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Windows
-
+  - Windows
+abbrlink: 3f65c81c
+date: 2022-07-13 15:30:09
 ---
 常用快捷键记录
 <!--more-->

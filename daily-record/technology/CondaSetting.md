@@ -1,10 +1,10 @@
-date: 2022-07-17 18:30:09
+---
 title: 命令行工具
-category:
-- [Daily-Record,Technology]
+categories: [Daily-Record,Technology]
 tags:
-- Linux
-
+  - Linux
+abbrlink: 6d2a527e
+date: 2022-07-17 18:30:09
 ---
 conda & jupyter 配置
 <!--more-->

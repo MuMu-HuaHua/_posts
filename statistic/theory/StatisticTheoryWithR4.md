@@ -1,13 +1,12 @@
+---
 title: 实用统计学（四）
-date: 2022-07-12 17:30:20
-category:
-- [Statistic,Theory]
-
-tags: 
-- Statistic
-- R
-
+categories: [Statistic,Theory]
+tags:
+  - Statistic
+  - R
 toc: true
+abbrlink: 181ef7d8
+date: 2022-07-12 17:30:20
 ---
 ## 回归 & 预测
 回归可用于预测和解释

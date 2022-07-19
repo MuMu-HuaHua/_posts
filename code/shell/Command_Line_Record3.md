@@ -1,12 +1,12 @@
+---
 title: 命令行（三）
-date: 2022-07-14 23:20:09
-category:
-- [Code,shell]
+categories:  [Code,shell]
 tags:
-- Linux
-- DataScience
-
+  - Linux
+  - DataScience
 toc: true
+abbrlink: 6885c91c
+date: 2022-07-14 23:20:09
 ---
 
 ## 管理数据工作流

@@ -1,11 +1,12 @@
-title: Conception Of SocialNetwork 
-date: 2022-07-17 18:30:09
-category:
-- [Code,BD]
+---
+title: Conception Of SocialNetwork
+categories: [Code,BD]
 tags:
-- Statistic
-- Algorithm
-- BD
+  - Statistic
+  - Algorithm
+  - BD
+abbrlink: 9aecbe53
+date: 2022-07-17 18:30:09
 ---
 社交网络开坑
 <!--more-->

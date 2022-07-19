@@ -1,11 +1,12 @@
-title: Conception Of Mapreduce 
-date: 2022-07-17 18:30:09
-category:
-- [Code,BD]
+---
+title: Conception Of Mapreduce
+categories: [Code,BD]
 tags:
-- Linux
-- Algorithm
-- BD
+  - Linux
+  - Algorithm
+  - BD
+abbrlink: ca985a95
+date: 2022-07-17 18:30:09
 ---
 MapReduce是一种算法和框架，用来处理海量数据,Pregel（Pregel也来自谷歌，开源），对工程师的算法知识要求不高，支持大规模图的计算.
 <!--more-->

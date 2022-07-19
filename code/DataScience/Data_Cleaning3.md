@@ -1,14 +1,13 @@
+---
 title: 数据清洗(3)
+categories:  [Code,DataScience]
+tags:
+  - 数据清洗
+  - SQL
+  - Linux
+  - Python
+abbrlink: 80f66610
 date: 2022-07-11 22:30:09
-category:
-- [Code,DataScience]
-- [Statistic,Theory]
-
-tags: 
-- 数据清洗
-- SQL
-- Linux
-- Python
 ---
 
 ### Wash

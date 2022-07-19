@@ -1,13 +1,13 @@
+---
 title: CDP
-date: 2022-07-16 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Linux
-- CDP
-- BD
-  
+  - Linux
+  - CDP
+  - BD
 toc: true
+abbrlink: 72e3317e
+date: 2022-07-16 18:30:09
 ---
 
 大数据平台[CDP](https://www.clouderacn.cn/products/cloudera-data-platform.html)

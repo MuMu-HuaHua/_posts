@@ -1,13 +1,13 @@
+---
 title: pyspark_foundation
-date: 2022-07-17 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Linux
-- Spark
-- BD
-  
+  - Linux
+  - Spark
+  - BD
 toc: true
+abbrlink: 9e66f774
+date: 2022-07-17 18:30:09
 ---
 安装及部分基本操作
 <!--more-->

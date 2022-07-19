@@ -1,13 +1,13 @@
+---
 title: Spark
-date: 2022-07-09 18:30:09
-category:
-- [Code,BD]
+categories: [Code,BD]
 tags:
-- Linux
-- Spark
-- BD
-  
+  - Linux
+  - Spark
+  - BD
 toc: true
+abbrlink: 5cd2e029
+date: 2022-07-09 18:30:09
 ---
 
 ### 常用组件

@@ -1,11 +1,11 @@
-title: Certbot证书相关记录
-date: 2022-07-22 18:30:09
-category:
-- [Daily-Record,Technology]
-tags:
-- Linux
 ---
-<!--more-->
+title: Certbot证书相关记录
+categories: [Daily-Record,Technology]
+tags:
+  - Linux
+abbrlink: 741cac61
+date: 2022-07-22 18:30:09
+---
 ### 账户
 账户信息都保存在/etc/letsencrypt/account目录下，查看目录结构：
 `sudo tree /etc/letsencrypt·
@@ -27,11 +27,6 @@ certbot certonly --webroot -w /var/www/example -d www.example.com -d example.com
 ```
 
 
-### 自动更新
 
-安装snap、cerbot、添加命令
-``` sh
-echo "0 0 1 * * /usr/bin/certbot renew --quiet" >> /etc/cron.d/root
-````
 
 
