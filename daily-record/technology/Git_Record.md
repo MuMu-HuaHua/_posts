@@ -8,10 +8,11 @@ tags:
   - Git
 abbrlink: bff17e60
 date: 2022-07-12 22:30:09
+banner_img: https://cdn.jsdelivr.net/gh/MuMu-HuaHua/picgo/202207160934027.png
 ---
-在开始架设 Git 服务器前，需要把现有仓库导出为裸仓库——即一个不包含当前工作目录的仓库
-
 <!--more-->
+
+在开始架设 Git 服务器前，需要把现有仓库导出为裸仓库——即一个不包含当前工作目录的仓库
 > git同步到本地
 ``` bash 
 git clone git@github.com:shichengziya/shichengziya.github.io.git

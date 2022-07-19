@@ -9,8 +9,9 @@ toc: true
 abbrlink: 28ad03d2
 date: 2022-07-09 18:30:09
 ---
-ETL(Extract、Transform、Load)，大数据场景下，数据量越大，计算逻辑愈发复杂，数据清洗需放在运算能力更强的分布式计算引擎中完成，ETL也就变成了ELT（Extract-Load-Transform）
 <!--more-->
+ETL(Extract、Transform、Load)，大数据场景下，数据量越大，计算逻辑愈发复杂，数据清洗需放在运算能力更强的分布式计算引擎中完成，ETL也就变成了ELT（Extract-Load-Transform）
+
 ### 主流ETL工具
 - Sqoop（Apache）
 - DataX(阿里)

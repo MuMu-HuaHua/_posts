@@ -6,6 +6,7 @@ categories: [Daily-Record,Notes]
 tags:
   - Hexo
 abbrlink: 3ee01444
+banner_img: https://cdn.jsdelivr.net/gh/MuMu-HuaHua/picgo/202207161447384.jpg
 ---
 
 #### 今天终于把Blog上架了~~上几张图庆祝一下
