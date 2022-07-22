@@ -95,9 +95,14 @@ lines terminated by '\n';
    下载apache-hive-2.3.8-bin.tar.gz和mysql-connector-java-8.0.25.jar
   ```  sh
   cd /data/hive1
-  wget https://mirrors.tuna.tsinghua.edu.cn/apache/hive/hive-2.3.8/apache-hive-2.3.8-bin.tar.gz
-  wget https://dev.mysql.com/downloads/file/?id=504646
-   ```
+  wget https://mirrors.tuna.tsinghua.edu.cn/apache/hive/hive-3.1.3/apache-hive-3.1.3-bin.tar.gz
+  wget https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java_8.0.29-1ubuntu20.04_all.deb
+
+  # install
+  wget 
+  sudo apt install ./mysql-connector-java_8.0.29-1ubuntu20.04_all.deb 
+  ls /usr/share/java/ 
+  ```
 2. 配置环境变量
   ``` sh
   vim ~/.bashrc
@@ -118,30 +123,26 @@ lines terminated by '\n';
   vim hive-site.xml
   ```
   配置xml文件
-    ``` xml
-    <property>
-    #javax.jdo.option.ConnectionDriverName：连接数据库的驱动包。
-      <name>javax.jdo.option.ConnectionDriverName</name>
-      <value>com.mysql.jdbc.Driver</value>
-    </property>
-    <property>
-    #javax.jdo.option.ConnectionUserName：数据库用户名。
-      <name>javax.jdo.option.ConnectionUserName</name>         <value>root</value>
-    </property>
-    <property>
-    #javax.jdo.option.ConnectionPassword：连接数据库的密码。
-      <name>javax.jdo.option.ConnectionPassword</name>
-      <value>12345</value>                                                                     
-    </property>
-      <property>
-        <name>hive.server2.thrift.port</name>
-        <value>10000</value>
-      </property>
-    <property>
-      <name>hive.server2.thrift.bind.host</name>
-      <value>127.0.0.1</value>
-    </property>
-  ```
+   ``` xml
+   <configuration>
+       <property>
+           <name>javax.jdo.option.ConnectionUserName</name>         
+           <value>root</value>
+       </property>
+       <property>
+           <name>javax.jdo.option.ConnectionPassword</name>
+           <value>Rmysql2022-</value>
+       </property>
+       <property>
+           <name>hive.server2.thrift.port</name>
+           <value>10000</value>
+       </property>
+       <property>
+           <name>hive.server2.thrift.bind.host</name>
+           <value>127.0.0.1</value>
+       </property>
+   </configuration>
+   ```
   将hive-env.sh.template重命名为hive-env.sh
   `mv /apps/hive/conf/hive-env.sh.template  /apps/hive/conf/hive-env.sh `
   配置`hive-env.sh`，追加Hadoop的路径以及Hive配置文件的路径
