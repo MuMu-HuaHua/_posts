@@ -135,87 +135,85 @@ RAR是Windows上广泛使用的归档和压缩解决方案；但是在OS X和Lin
         1. 不同精度的转换
     1. 转换策略
         1. 基于SQL的操作。这种策略适用于处理保存在数据库中的数据
-            1. 把concat()和日期时间函数结合起来使用
-            ``` SQL
-            SELECT concat(hour(date),
-            ':',
-            minute(date),
-            # 必须要包含a.m/p.m，可以使用条件语句来判断小时部分的值
-            if(hour(date)<12,'am','pm'),
-            contact(
-                ', ',
-                dayname(date),
-                ', ',
-                monthname(date),
-                ' ',
-                day(date),
-                ', ',
-                year(date))
-            )
-            FROM message
-                WHERE mid=52;
-            ```
-            1. 使用MySQL提供的更为高级的date_format()函数
-            ``` SQL
-            SELECT concat(
-                date_format(date, '%l:%i'),
-            # 如果需要am/pm小写的话需要指定
-                lower(date_format(date,'%p ')),
-                date_format(date,'%W, %M %e, %Y')
-            )
-            FROM message
-                WHERE mid=52;
-            ``` 
-            1. 从字符串类型转换到MySQL的日期类型
-                1. str_to_date()
-                ``` SQL 
-                # 从第79条记录所引用的电子邮件内容中提取时间
-                SELECT
-                str_to_date(
-                    substring_index(
-                        substring_index(reference,'>',3),
-                        'Sent: ',
-                        -1
-                    ),
-                    '%W,%M %e, %Y %h:%i %p'
-                )
-                FROM referenceinfo
-                WHERE mid=79;
-                ```
+   ``` SQL
+   # 把concat()和日期时间函数结合起来使用
+   SELECT concat(hour(date),
+   ':',
+   minute(date),
+   # 必须要包含a.m/p.m，可以使用条件语句来判断小时部分的值
+   if(hour(date)<12,'am','pm'),
+   contact(
+       ', ',
+       dayname(date),
+       ', ',
+       monthname(date),
+       ' ',
+       day(date),
+       ', ',
+       year(date))
+   )
+   FROM message
+       WHERE mid=52;
+    
+    # 使用MySQL提供的更为高级的date_format()函数
+   SELECT concat(
+       date_format(date, '%l:%i'),
+   # 如果需要am/pm小写的话需要指定
+       lower(date_format(date,'%p ')),
+       date_format(date,'%W, %M %e, %Y')
+   )
+   FROM message
+       WHERE mid=52;
+   ``` 
+   1. 从字符串类型转换到MySQL的日期类型
+       1. str_to_date()
+       ``` SQL 
+       # 从第79条记录所引用的电子邮件内容中提取时间
+       SELECT
+       str_to_date(
+           substring_index(
+               substring_index(reference,'>',3),
+               'Sent: ',
+               -1
+           ),
+           '%W,%M %e, %Y %h:%i %p'
+       )
+       FROM referenceinfo
+       WHERE mid=79;
+       ```
 
-            1. 把MySQL字符串类型的数据转换成小数
-                ``` SQL
-                # convert()与cast()的功能相似。把某种数据类型转成数字的功能
-                # March had slipped by 51 cts at the same time to trade at $18.47/bbl.
-                SELECT convert(
-                        substring_index(
-                            substring(
-                                body,
-                                locate('$',body)+1
-                            ),
-                            '/bbl',
-                            1
-                        ),
-                        decimal(4,2)
-                    ) as price
-                FROM message
-                WHERE body LIKE "%$%" AND body LIKE "%/bbl%" AND sender ='energybulletin@platts.com';
-                ```     
+   2. 把MySQL字符串类型的数据转换成小数
+       ``` SQL
+       # convert()与cast()的功能相似。把某种数据类型转成数字的功能
+       # March had slipped by 51 cts at the same time to trade at $18.47/bbl.
+       SELECT convert(
+               substring_index(
+                   substring(
+                       body,
+                       locate('$',body)+1
+                   ),
+                   '/bbl',
+                   1
+               ),
+               decimal(4,2)
+           ) as price
+       FROM message
+       WHERE body LIKE "%$%" AND body LIKE "%/bbl%" AND sender ='energybulletin@platts.com';
+       ```     
         1. 基于文件的操作。这种策略可以用来处理文本类型的数据文件
             1. 最常见的是电子表格(EXCEL)或JSON文件
-            1. 需要把从文件中读取出来的数据再次以某种方法进行进一步加工
-                1. PHP代码所生成的JSON数据都是直接来自数据库的
+            2. 需要把从文件中读取出来的数据再次以某种方法进行进一步加工,==PHP代码所生成的JSON数据都是直接来自数据库的==
     1. 空值处理
         1. 空值类型
             1. NULL: NULL不等于任何值，甚至是它本身
                 1. 只有在不希望出现任何数据的情况下才应该使用NULL
-                1. 要区分没有数据和不清楚是否有数据
-            1. 0 : 零是可测量的数字，在数值系统中是有意义的
-            1. 空值: 表现空字符串的正确方式就是把它“留空”
+                2. 要区分没有数据和不清楚是否有数据
+            2. 0 : 零是可测量的数字，在数值系统中是有意义的
+            3. 空值: 表现空字符串的正确方式就是把它“留空”
                 1. " "（两个双引号中间夹着一个空格字符，有时候也称空白，但空格的说法可能更为恰当一些）不等同于""
-                1. JSON有些时候也是可能出现空对象和空字符串的
-                1. 除了空格外，有时其他不可见字符也会被误当成空或空白来解析(制表符、回车、换行符) 
-    1. 编码格式转换
+                2. JSON有些时候也是可能出现空对象和空字符串的
+                3. 除了空格外，有时其他不可见字符也会被误当成空或空白来解析(制表符、回车、换行符) 
+    2. 编码格式转换
 
 不同的数据环境和编程环境（DBMS、存储系统和编程语言）在对待零、空值和NULL这三个概念时稍有不同
 

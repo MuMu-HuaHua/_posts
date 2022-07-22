@@ -7,6 +7,7 @@ tags:
 toc: true
 abbrlink: af33eebd
 date: 2022-07-09 17:30:20
+latex: true
 ---
 <!--more-->
 ## 　统计机器学习

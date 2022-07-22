@@ -7,6 +7,7 @@ tags:
 toc: true
 abbrlink: 181ef7d8
 date: 2022-07-12 17:30:20
+latex: true
 ---
 <!--more-->
 ## 回归 & 预测

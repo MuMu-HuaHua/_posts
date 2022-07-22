@@ -7,6 +7,7 @@ tags:
 toc: true
 abbrlink: d23ba137
 date: 2022-07-04 17:30:20
+latex: true
 ---
 ## 数据分布
 1. 箱线图
