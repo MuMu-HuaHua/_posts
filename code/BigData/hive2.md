@@ -8,6 +8,7 @@ date: 2022-07-21 18:30:09
 banner_img: https://cdn.jsdelivr.net/gh/MuMu-HuaHua/picgo/202207201617927.jpg
 toc: true
 ---
+<!--more-->
 ### 基操
 启动hive，可以通过`/bin/hive`访问hive客户端，也可以通过beeline远程访问
 

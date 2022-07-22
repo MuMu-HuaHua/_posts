@@ -9,7 +9,7 @@ date: 2022-07-24 18:30:09
 banner_img: https://cdn.jsdelivr.net/gh/MuMu-HuaHua/picgo/202207220000990.jpg
 toc: true
 ---
-
+<!--more-->
 ### 架构
 [DataX](https://github.com/alibaba/DataX) 是阿里巴巴开源的一个==异构数据源离线同步工具==，致力于实现包括关系型数据库(MySQL、Oracle等)、HDFS、Hive、ODPS、HBase、FTP等各种异构数据源之间稳定高效的数据同步功能。DataX将复杂的网状的同步链路变成了星型数据链路，==DataX作为中间传输载体负责连接各种数据源。__当需要接入一个新的数据源的时候，只需要将此数据源对接到DataX，便能跟已有的数据源做到无缝数据同步__。
 

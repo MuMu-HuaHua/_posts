@@ -9,8 +9,8 @@ toc: true
 abbrlink: 9e66f774
 date: 2022-07-17 18:30:09
 ---
-安装及部分基本操作
 <!--more-->
+安装及部分基本操作
 ### install & setting
 ``` shell
 pip install pyspark

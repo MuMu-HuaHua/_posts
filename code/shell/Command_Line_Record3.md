@@ -8,10 +8,10 @@ toc: true
 abbrlink: 6885c91c
 date: 2022-07-14 23:20:09
 ---
-
+<!--more-->
 ## 管理数据工作流
 使用命令行进行数据处理是具有探索性质的，还是需要做一个记录，以便后续梳理。使用Drake进行管理。
-<!--more-->
+
 ### 安装
 ``` sh
 sudo apt-get install openjdk-6-jdk

@@ -8,13 +8,13 @@ toc: true
 abbrlink: 259b6a4e
 date: 2022-07-13 14:30:09
 ---
-
+<!--more-->
 常用的获取数据工具： curl、sql2csv和tar
 
 ### 解压缩
 tar、zip、rar
 
-<!--more-->
+
 ``` sh
 #!/usr/bin/env bash
 # unpack: Extract common file formats
