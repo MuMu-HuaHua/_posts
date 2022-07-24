@@ -14,7 +14,6 @@ date: 2022-07-18 18:30:09
 安装docker
 ``` sh
 uname -a
-
 # 本机
 # 为了确认所下载软件包的合法性，需要添加软件源的 GPG 密钥
 curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -50,17 +49,12 @@ NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node nvm install stable # �
 npm install -g hexo-cli
 npm install hexo-server --save
 
-docker commit -m "Hexo origin submit" -a "Orange" 1ac140d51bcf hexo
 
 # nginx
-
-# githook
 # Hook 就是在执行某个事件之前或之后进行一些其他额外的操作
-
 
 # 同步
 # syncpost.sh
-
 docker run -d --name="hexo" -p 80:4000 -v /root/hexo/blog:/root/hexo/blog hexo /root/hexo/blog/start.sh
 
 # hexo->4376(九宫格)
@@ -69,8 +63,6 @@ docker run -d \
 -p 4376:4000 \
 -v /Data/chengziyu/:/root/hexo \
 hexo /root/hexo/blog/start.sh
-
-
 
 # 配置证书
 docker exec -it "[your_container_name]" /bin/bash
@@ -153,6 +145,7 @@ EXPOSE 443
 ``` sh
 docker build -t hexo-docker .
 docker run -v $(pwd)/letsencrypt:/etc/letsencrypt -d -p 80:80 -p 443:443 -p 4376:22 hexo-docker
+
 docker exec -it  hexo-docker /bin/bash
 ```
 ### 证书部署
@@ -246,3 +239,9 @@ nginx: [emerg] location "/50x.html" is outside location
 "/.well-known/acme-challenge/" in /etc/nginx/nginx.conf:39
 nginx: configuration file /etc/nginx/nginx.conf test failed
 
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    
+    ssl_certificate /etc/letsencrypt/live/chengziyu.xyz/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/chengziyu.xyz/privkey.pem;
+    ssl_trusted_certificate /etc/letsencrypt/live/chengziyu.xyz/chain.pem;

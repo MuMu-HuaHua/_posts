@@ -1,5 +1,5 @@
 ---
-title: 端口相关
+title: nginx部署记录
 categories: [Daily-Record,Technology]
 tags:
   - nginx
@@ -11,14 +11,21 @@ date: 2022-07-22 18:30:09
 <!--more-->
 
 ### nginx部署证书踩坑
+
 #### 443端口显示正被docker监听
 `lsof -i:443`
 `ss -nplut |grep 443`
 
 #### 无法连接443端口
 
+### 子域名
+1. Dockerfile部署gitbook
+2. [gitbook](http://gb.chengziyu.xyz/)子域名解析
+3. 配置nginx
 
+``` sh 
 
+```
 ### 域名
 查看域名dns
 `nslookup -type=NS chengziyu.xyz`
