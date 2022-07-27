@@ -5,7 +5,6 @@ categories:
 tags:
   - Novel
   - Read&Think
-abbrlink: cc8890c6
 date: 2022-07-14 22:30:09
 ---
 

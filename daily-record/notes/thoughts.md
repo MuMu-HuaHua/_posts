@@ -2,7 +2,6 @@
 title: 随想
 categories: [Daily-Record,Notes]
 password: hello
-abbrlink: 41acf799
 date: 2022-07-14 22:30:09
 ---
 <!--more-->
